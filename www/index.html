@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Anotador de truco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="estilos/estilos.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="javascript/scripts.js"></script>
+
+        <div id="inicio" class="visible">
+
+            <input type="text" name="equipo1" value="" placeholder="Equipo 1" id="equipo1" class="equipo"><br><br>
+            <input type="text" name="equipo2" value="" placeholder="Equipo 2" id="equipo2" class="equipo"><br><br><br>
+
+            <input type="button" name="a24" value="a 24" id="a24" class="encendido">
+            <input type="button" name="a30" value="a 30" id="a30" class="encendido"><br><br><br>
+
+            <input type="button" name="iniciar" value="Iniciar" id="iniciar" class="iniciar">
+            
+        </div>
+        <br><br>
+        <div id="juego" class="oculto">
+            
+            <input type="button" name="suma-e1" value="+" id="suma-e1" class="suma">
+            <input type="text" name="nombre-e1" value="" id="nombre-e1" class="equipo">
+            <input type="text" name="nombre-e2" value="" id="nombre-e2" class="equipo">
+            <input type="button" name="suma-e2" value="+" id="suma-e2" class="suma"><br><br>
+
+            <hr>
+
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen1">
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen4"><br>
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen2">
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen5"><br>
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen3">
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen6">
+    
+            <hr>
+            <h1 id="ganador" class="ganador"></h1>
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen7">
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen10"><br>
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen8">
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen11"><br>
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen9">
+            <img src="imagenes/0.png" alt="0" class="imagen" id="imagen12">
+
+            <hr>
+
+            <input type="text" name="puntaje" value="" id="puntaje" class="puntuacion"><br><br>
+            
+            <input type="button" name="resta-e1" value="-" id="resta-e1" class="resta">
+            <input type="text" name="puntaje-e1" value="" id="puntaje-e1" class="puntaje">
+            <input type="button" name="fin" value="Fin" id="fin" class="fin">
+            <input type="text" name="puntaje-e2" value="" id="puntaje-e2" class="puntaje">
+            <input type="button" name="resta-e2" value="-" id="resta-e2" class="resta">
+
+        </div>
+
+        
+    
+    </body>
+</html>
